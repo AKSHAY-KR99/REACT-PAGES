@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User dashboard Seqato Software Solutions</title>
+    <link rel="stylesheet" href="dashboardstyle.css">
+    <script src="dashboardScript.js"></script>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Teko:wght@300&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f312f98a82.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <label class="logo">SEQATO</label>
+        <ul id="orderedList">
+            <li><a class="linkTag" href="#">Home</a></li>
+            <li><a class="linkTag" href="#">About</a></li>
+            <li><a class="linkTag" href="#">Contact</a></li>
+            <li><a class="linkTag" href="#">Feedback</a></li>
+            <li><a class="linkTag" href="signin.html">logout</a></li>
+        </ul>
+        <label id="icon" onclick="showHeadTags()">
+            <i class="fas fa-bars"></i>
+        </label>
+
+    </nav>
+    <section>
+        <div class="start-vew">
+            <div class="textquotes">
+                <p class="companyquotes"><span class="inverted">"</span>Lorem ipsum dolor sit amet consectetur,
+                    adipisicing
+                    elit. Eos assumenda suscipit exercitationem
+                    accusantium aliquid cumque vitae, odio, corrupti fugit eveniet earum eaque, porro quia aliquam modi
+                    nam?
+                    Consequatur, sit ratione..<span class="inverted">"</span></p>
+            </div>
+        </div>
+        <div class="secondPart">
+            <div class="headline mt-5">
+                <p>Company Dashboard</p>
+            </div>
+            <div class="content-part mt-5">
+                <table class="cardtable center">
+                    <tr>
+                        <td>
+                            <div class="details Tag-one">
+                                <span class="card-logo"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                        fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
+                                        <path
+                                            d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
+                                    </svg></span>
+                                <p class="card-heading">Company Details</p>
+                                <p class="card-summary">Details like address, contact number, history, etc.</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="details Tag-two">
+                                <span class="card-logo"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                        fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                        <path fill-rule="evenodd"
+                                            d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z" />
+                                        <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
+                                    </svg></span>
+                                <p class="card-heading">Employee Details</p>
+                                <p class="card-summary">Employee details like role, tasks, project, etc</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="details Tag-three">
+                                <span class="card-logo">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                                        class="bi bi-collection-play" viewBox="0 0 16 16">
+                                        <path
+                                            d="M2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1zm2.765 5.576A.5.5 0 0 0 6 7v5a.5.5 0 0 0 .765.424l4-2.5a.5.5 0 0 0 0-.848l-4-2.5z" />
+                                        <path
+                                            d="M1.5 14.5A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zm13-1a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-.5-.5h-13A.5.5 0 0 0 1 6v7a.5.5 0 0 0 .5.5h13z" />
+                                    </svg>
+                                </span>
+                                <p class="card-heading">Gallery</p>
+                                <p class="card-summary">Media collections of events held in Seqato</p>
+
+                            </div>
+                        </td>
+                        <td>
+                            <div class="details Tag-four">
+                                <span class="card-logo"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                        fill="currentColor" class="bi bi-newspaper" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z" />
+                                        <path
+                                            d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+                                    </svg></span>
+                                <p class="card-heading">Seqato News</p>
+                                <p class="card-summary">Important news and updates related to Seqato are available</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="details Tag-five">
+                                <span class="card-logo"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                        fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
+                                        <path
+                                            d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
+                                    </svg></span>
+                                <p class="card-heading">Technologies</p>
+                                <p class="card-summary">List of various Technologies used in our ptojects</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="details Tag-six">
+                                <span class="card-logo"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                        fill="currentColor" class="bi bi-balloon-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8.48 10.901C11.211 10.227 13 7.837 13 5A5 5 0 0 0 3 5c0 2.837 1.789 5.227 4.52 5.901l-.244.487a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2.376 2.376 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.244-.487ZM4.352 3.356a4.004 4.004 0 0 1 3.15-2.325C7.774.997 8 1.224 8 1.5c0 .276-.226.496-.498.542-.95.162-1.749.78-2.173 1.617a.595.595 0 0 1-.52.341c-.346 0-.599-.329-.457-.644Z" />
+                                    </svg></span>
+                                <p class="card-heading">Events</p>
+                                <p class="card-summary">Upcoming events in Seqato and its details</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="details Tag-seven">
+                                <span class="card-logo"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                        fill="currentColor" class="bi bi-journal-text" viewBox="0 0 16 16">
+                                        <path
+                                            d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                        <path
+                                            d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                                        <path
+                                            d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+                                    </svg></span>
+                                <p class="card-heading">License policy details</p>
+                                <p class="card-summary">Company license details and policy agreements</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="details Tag-eight">
+                                <span class="card-logo"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                        fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
+                                        <path
+                                            d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+                                    </svg></span>
+                                <p class="card-heading">Career</p>
+                                <p class="card-summary">List of various Carrer opertunities provided by Seqato</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- <div class="footer-part">
+                <div class="footer-content mt-4`">
+                    <table class="footertable">
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </table>
+                </div>
+            </div> -->
+                <!-- <div class="row">
+            <div class="company-data col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="details Tag-one">Company details</div>
+            </div>
+            <div class="company-data col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="details Tag-two">Company details</div>
+            </div>
+            <div class="company-data col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="details Tag-three">Company details</div>
+            </div>
+            <div class="company-data col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="details Tag-four">Company details</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="company-data col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="details Tag-five">Company details</div>
+            </div>
+            <div class="company-data col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="details Tag-six">Company details</div>
+            </div>
+            <div class="company-data col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="details Tag-seven">Company details</div>
+            </div>
+            <div class="company-data col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="details Tag-eight">Company details</div>
+            </div>
+        </div> -->
+
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</html>

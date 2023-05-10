@@ -1,0 +1,247 @@
+body {
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    height: 200vh;
+    background-image: linear-gradient(rgb(40, 94, 94), rgb(5, 20, 41));
+    background-size: 100% 25%;
+    background-repeat: no-repeat;
+}
+
+.linkTag:hover {
+    color: rgb(131, 183, 159);
+}
+
+.logo {
+    color: white;
+    line-height: 60px;
+    padding: 0 40px;
+    font-size: 35px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: #162f2d;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 72px;
+    margin: 0 3px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px 13px;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: white;
+    background: #2d514e;
+    transition: .5s;
+}
+
+.company-data {
+    padding: 25px;
+    /* border: 1px solid black; */
+    /* background-color: #b15656; */
+
+}
+
+.details {
+    background-color: #b0cecb;
+    margin-top: 10%;
+    margin-left: 9%;
+    padding: 0 20px;
+    width: 85%;
+    height: 160px;
+    border: 1px solid rgba(0, 0, 0, 0.291);
+    /* background-color: #a7c9c7; */
+    border-radius: 10px;
+    /* text-align: center; */
+}
+
+
+.details:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.308);
+    transition: .4s;
+    transform: scale(1.1);
+}
+
+
+.textquotes {
+    width: 100%;
+    height: 30%;
+    padding: 75px;
+    background-color: rgba(0, 0, 0, 0.439);
+}
+
+.companyquotes {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    text-align: right;
+    color: white;
+    line-height: 25px;
+}
+
+.inverted {
+    font-size: 30px;
+}
+
+.headline {
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.headline p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.headline p:hover {
+    cursor: pointer;
+    color: #162f2d;
+    transition: .4s;
+    transform: scale(1.3);
+}
+
+.cardtable td {
+    width: 280px;
+}
+
+.cardtable {
+    margin-left: 9%;
+}
+
+.secondPart {
+    background-color: #508989;
+    position: relative;
+    top: -45px;
+    height: 600px;
+}
+
+
+.card-logo svg {
+    position: relative;
+    top: 25px;
+    margin-left: 39%;
+}
+
+.card-heading {
+    position: relative;
+    top: 37px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+p.card-summary {
+    position: relative;
+    top: 23px;
+    text-align: center;
+    font: 11px sans-serif;
+}
+
+
+nav #icon {
+    color: white;
+    font-size: 20px;
+    line-height: 65px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width:887px) {
+    label.logo {
+        font-size: 32px;
+        padding-left: 30px;
+    }
+
+    nav ul {
+        margin-right: 10px;
+        opacity: 1;
+
+    }
+
+    nav ul li a {
+        padding: 6px 3px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:615px) {
+    nav #icon {
+        display: block;
+        margin-right: 20px;
+    }
+
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 50vh;
+        background: #122832;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        line-height: 40px;
+    }
+
+    nav ul li a {
+        font-size: 17px;
+        padding: 10px;
+    }
+
+    nav ul {
+        opacity: 0;
+    }
+
+    a:hover {
+        color: white;
+        background: #ffffff;
+        transition: .5s;
+    }
+
+    .linkTag:hover {
+        color: rgb(13, 30, 55);
+    }
+
+    .headline {
+        font-size: 25px;
+    }
+
+    .headline p:hover {
+        cursor: pointer;
+        color: #162f2d;
+        transition: .4s;
+        transform: scale(1.1);
+    }
+}

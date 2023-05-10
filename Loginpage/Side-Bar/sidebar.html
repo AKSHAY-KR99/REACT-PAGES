@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User dashboard navigation side bar</title>
+
+
+    <link rel="stylesheet" href="sidebar.css">
+
+    <!-- Box icon CDN -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bxl-squarespace'></i>
+                <div class="logo_name">
+                    PentageMedia
+                </div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <i class='bx bx-search'></i>
+                <input type="text" placeholder="Search..">
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name">
+                        Dashboard
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bx-user'></i>
+                    <span class="links_name">
+                        User
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bx-chat'></i>
+                    <span class="links_name">
+                        Messages
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bx-line-chart'></i>
+                    <span class="links_name">
+                        Analytics
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bx-folder'></i>
+                    <span class="links_name">
+                        File Manager
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bx-coin-stack'></i>
+                    <span class="links_name">
+                        Upcoming Projects
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bx-party'></i>
+                    <span class="links_name">
+                        Events
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bx-cog'></i>
+                    <span class="links_name">
+                        Settings
+                    </span>
+                </a>
+            </li>
+        </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <img src="David-Beckham.png" alt="">
+                    <div class="name_job">
+                        <div class="name">David Beckham</div>
+                        <div class="job">Professional Footballer</div>
+                    </div>
+                </div>
+                <i class='bx bx-log-out' id="log_out"></i>
+            </div>
+        </div>
+    </div>
+    <div class="home_content">
+        <div class="text">
+            <div class="row headline">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    Penatage Media <br>
+                    <span class="belowtext">
+                        Bussiness Summary
+                    </span>
+                </div>
+            </div>
+            <div class="row cardcontent">
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 card-data">
+                    <i class='bx bxs-pen cardicon'></i>
+                    <span class="cardtittle">
+                        Overview
+                    </span>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 card-data">
+                    <i class='bx bxs-terminal cardicon'></i>
+                    <span class="cardtittle">
+                        Status
+                    </span>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 card-data">
+                    <i class='bx bxs-chevrons-up cardicon'></i>
+                    <span class="cardtittle">
+                        Reach
+                    </span>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 card-data">
+                    <i class='bx bxs-cloud-upload cardicon'></i>
+                    <span class="cardtittle">
+                        Uploads
+                    </span>
+                </div>
+            </div>
+            <div class="row analyticdata">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 analytics graph-data">asd</div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 analytics name-data">asd</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="sidebar.js"></script>
+</html>

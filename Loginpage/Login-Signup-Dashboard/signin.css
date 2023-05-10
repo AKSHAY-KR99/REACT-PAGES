@@ -1,0 +1,123 @@
+body{
+    height: 100vh;
+}
+
+.left-part{
+    background-color: #162f2d;
+    width: 50%;
+    height: 650px;
+}
+
+.left-head {
+    text-decoration: underline;
+    color: #ffffff;
+    font-family: 'Teko', sans-serif;
+    font-size: 120px;
+    margin-left: 10%;
+    text-shadow: 10px 10px 10px rgb(0, 0, 0, 0.5);
+}
+
+.left-subhead {
+    color: #ffffff;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    margin-left: 10%;
+}
+
+p {
+    line-height: 25px;
+}
+
+
+img {
+    margin-left: 15%;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0));
+}
+
+.headline {
+    color: #162f2d;
+    font-weight: bold;
+    font-size: 75px;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+}
+
+.subline {
+    color: #162f2d;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+}
+
+.form {
+    margin-left: 8%;
+    border: solid 1px rgb(190, 190, 190);
+    width: 85%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(148, 148, 148);
+}
+
+.submitbutton {
+    margin-left: 4%;
+    border: solid 2px;
+    border-radius: 8px;
+    font: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: #162f2d;
+    width: 10em;
+    height: 2.5em;
+}
+
+#exampleInputPassword1 {
+    width: 90%;
+}
+
+#exampleInputEmail1 {
+    width: 90%;
+}
+
+input::placeholder {
+    font: 11px sans-serif;
+}
+
+
+.formcontent {
+    margin-left: 5%;
+}
+
+
+.errorClasses{
+    visibility: hidden;
+    margin-top: 2px;
+    margin-left: 6%;
+    color: rgb(255, 0, 0);
+    font: 10px sans-serif;
+}
+
+.signin{
+    text-align: center;
+    font: 13px sans-serif;
+}
+
+
+.password-eye{
+    position: relative;
+    top: -32px;
+    left: 90%;
+}
+
+#hide{
+    visibility: hidden;
+    position: relative;
+    right: 20px;
+}
+
+#nonePassword1{
+    position: relative;
+    top: -23px;
+}
